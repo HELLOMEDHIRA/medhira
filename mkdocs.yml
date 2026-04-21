@@ -1,0 +1,60 @@
+site_name: MEDHIRA
+site_url: https://medhira.readthedocs.io
+site_description: Engineering Intelligence Across Everything - Open Source Libraries and Tools
+site_author: MEDHIRA
+docs_dir: docs
+
+repo_name: HELLOMEDHIRA/medhira
+repo_url: https://github.com/HELLOMEDHIRA/medhira
+
+theme:
+  name: material
+  logo: https://raw.githubusercontent.com/HELLOMEDHIRA/medhira/main/assets/medhira-logo.png
+  favicon: https://raw.githubusercontent.com/HELLOMEDHIRA/medhira/main/assets/medhira-logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - React Native: react-native.md
+  - JavaScript/TypeScript: javascript-typescript.md
+  - Python: python.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+
+copyright: |
+  &copy; 2024 MEDHIRA. All rights reserved.
