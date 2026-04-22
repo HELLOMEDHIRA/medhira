@@ -20,4 +20,4 @@ All packages are licensed under the Apache License 2.0 - see the [LICENSE](https
 
 ---
 
-Made with love by [MEDHIRA](https://medhira.io)
+Made with love by [MEDHIRA](https://medhira.readthedocs.io/en/latest/)

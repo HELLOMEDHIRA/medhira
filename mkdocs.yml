@@ -40,10 +40,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
   - tables
   - attr_list
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:

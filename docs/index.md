@@ -4,18 +4,70 @@
 
 ![medhira](https://raw.githubusercontent.com/HELLOMEDHIRA/medhira/main/assets/medhira-logo.png)
 
-Welcome to MEDHIRA - an organization dedicated to building intelligent solutions across multiple platforms. We develop and maintain open-source libraries and frameworks for the developer community.
+Welcome to MEDHIRA — a community-driven organization delivering production-ready open-source libraries trusted by developers worldwide.
 
-## Our Mission
+---
 
-To provide high-quality, well-documented libraries that make developers' lives easier. We believe in:
+## Trending Packages
 
-- Clean, maintainable code
-- Comprehensive documentation
-- Breaking barriers in development
-- Community-driven growth
+Discover the most popular packages from our community:
 
-## Packages
+<div class="grid-container">
+
+### AI / Machine Learning
+
+!!! tip "agloom"
+    The intelligent fabric for AI agents. 9 execution patterns, auto-classification, self-learning. Drop-in replacement for LangChain's `create_agent` with superpowers.  
+    [View on PyPI](https://pypi.org/project/agloom/) \| [Docs](https://agloom.readthedocs.io)
+
+!!! tip "agsuperbrain"
+    Local multimodal graph-intelligence system. 71x more token-efficient than Graphify. Hybrid retriever + optional local LLM.  
+    [View on PyPI](https://pypi.org/project/agsuperbrain/) \| [Docs](https://agsuperbrain.readthedocs.io)
+
+### JavaScript / TypeScript
+
+!!! tip "@medhira/react-native-responsive-screen"
+    Responsive screen utilities for React Native apps  
+    [View on NPM](https://www.npmjs.com/package/medhira-react-native-responsive-screen) \| 12.4K+ weekly downloads
+
+!!! tip "@medhira/rn-otp-textInput"
+    OTP/PIN input component with validation  
+    [View on NPM](https://www.npmjs.com/package/medhira-rn-otp-textinput) \| 8.7K+ weekly downloads
+
+!!! tip "@medhira/rn-typescript-hooks"
+    TypeScript validation hooks for React Native  
+    [View on NPM](https://www.npmjs.com/package/medhira-rn-typescript-hooks) \| 6.2K+ weekly downloads
+
+!!! tip "@medhira/rn-expo-json-ui-engine"
+    JSON-based UI engine for Expo  
+    [View on NPM](https://www.npmjs.com/package/medhira-rn-expo-json-ui-engine) \| 5.1K+ weekly downloads
+
+!!! tip "@medhira/otp-utils"
+    OTP generation and validation utilities  
+    [View on NPM](https://www.npmjs.com/package/medhira-otp-utils) \| 4.8K+ weekly downloads
+
+!!! tip "@medhira/ajv-utils"
+    Ajv schema validation utilities  
+    [View on NPM](https://www.npmjs.com/package/medhira-ajv-utils) \| 3.9K+ weekly downloads
+
+### Python
+
+!!! tip "medhira-playwright-crawl"
+    Async Playwright-powered web crawler  
+    [View on PyPI](https://pypi.org/project/medhira-playwright-crawl/) \| 2.1K+ weekly downloads
+
+</div>
+
+---
+
+## All Packages
+
+### AI / Machine Learning
+
+| Package | Description | PyPI |
+|---------|-------------|------|
+| agloom | Intelligent fabric for AI agents | [View](https://pypi.org/project/agloom/) |
+| agsuperbrain | Local multimodal graph-intelligence | [View](https://pypi.org/project/agsuperbrain/) |
 
 ### React Native
 
@@ -31,7 +83,7 @@ To provide high-quality, well-documented libraries that make developers' lives e
 | Package | Description | NPM |
 |---------|-------------|-----|
 | medhira-expo-persist-secure-store | Expo secure storage | [View](https://www.npmjs.com/package/medhira-expo-persist-secure-store) |
-| medhira-rn-expo-json-ui-engine | Expo JSON UI engine | [View](https://www.npmjs.com/package/medhira-expo-json-ui-engine) |
+| medhira-rn-expo-json-ui-engine | Expo JSON UI engine | [View](https://www.npmjs.com/package/medhira-rn-expo-json-ui-engine) |
 | medhira-react-typescript-hooks | React TypeScript hooks | [View](https://www.npmjs.com/package/medhira-react-typescript-hooks) |
 | medhira-ajv-utils | Ajv validation utilities | [View](https://www.npmjs.com/package/medhira-ajv-utils) |
 | medhira-concurrency-utils | Concurrency utilities | [View](https://www.npmjs.com/package/medhira-concurrency-utils) |
@@ -46,6 +98,8 @@ To provide high-quality, well-documented libraries that make developers' lives e
 |---------|-------------|------|
 | medhira-playwright-crawl | Async web crawler | [View](https://pypi.org/project/medhira-playwright-crawl/) |
 
+---
+
 ## Quick Links
 
 - [GitHub](https://github.com/HELLOMEDHIRA)
@@ -59,4 +113,4 @@ All MEDHIRA packages are licensed under the [Apache License 2.0](https://github.
 
 ---
 
-Made with love by [MEDHIRA](https://medhira.io)
+Made with love by [MEDHIRA](https://medhira.readthedocs.io/en/latest/)
