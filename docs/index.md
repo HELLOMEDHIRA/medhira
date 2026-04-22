@@ -13,40 +13,12 @@ Welcome to MEDHIRA — a community-driven organization delivering production-rea
 Discover the most popular packages from our community:
 
 !!! tip "agloom"
-    **The intelligent fabric for AI agents.** 9 execution patterns, auto-classification, self-learning. Drop-in replacement for LangChain's `create_agent` with superpowers.  
+    **The intelligent fabric for AI agents.** Nine execution patterns with auto-classification, self-learning, and one unified API.  
     [:package: PyPI](https://pypi.org/project/agloom/) · [:books: Docs](https://agloom.readthedocs.io)
 
 !!! tip "agsuperbrain"
-    **Local multimodal graph-intelligence system.** 71x more token-efficient than Graphify. Hybrid retriever + optional local LLM.  
+    **Local multimodal graph-intelligence system.** 306 language support, deterministic extraction, hybrid retriever, and optional local LLM integration.  
     [:package: PyPI](https://pypi.org/project/agsuperbrain/) · [:books: Docs](https://agsuperbrain.readthedocs.io)
-
-!!! tip "@medhira/react-native-responsive-screen"
-    Responsive screen utilities for React Native apps  
-    [:package: NPM](https://www.npmjs.com/package/medhira-react-native-responsive-screen) · 12.4K+ weekly downloads
-
-!!! tip "@medhira/rn-otp-textInput"
-    OTP/PIN input component with validation  
-    [:package: NPM](https://www.npmjs.com/package/medhira-rn-otp-textinput) · 8.7K+ weekly downloads
-
-!!! tip "@medhira/rn-typescript-hooks"
-    TypeScript validation hooks for React Native  
-    [:package: NPM](https://www.npmjs.com/package/medhira-rn-typescript-hooks) · 6.2K+ weekly downloads
-
-!!! tip "@medhira/rn-expo-json-ui-engine"
-    JSON-based UI engine for Expo  
-    [:package: NPM](https://www.npmjs.com/package/medhira-rn-expo-json-ui-engine) · 5.1K+ weekly downloads
-
-!!! tip "@medhira/otp-utils"
-    OTP generation and validation utilities  
-    [:package: NPM](https://www.npmjs.com/package/medhira-otp-utils) · 4.8K+ weekly downloads
-
-!!! tip "@medhira/ajv-utils"
-    Ajv schema validation utilities  
-    [:package: NPM](https://www.npmjs.com/package/medhira-ajv-utils) · 3.9K+ weekly downloads
-
-!!! tip "medhira-playwright-crawl"
-    Async Playwright-powered web crawler  
-    [:package: PyPI](https://pypi.org/project/medhira-playwright-crawl/) · 2.1K+ weekly downloads
 
 ---
 
