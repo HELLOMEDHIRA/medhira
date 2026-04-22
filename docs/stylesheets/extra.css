@@ -1,0 +1,54 @@
+.md-typeset .admonition.tip {
+    border-left-width: 4px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .admonition.tip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.md-typeset .admonition.tip > .admonition-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset .admonition.tip > .admonition-title + .admonition-content {
+    padding: 16px;
+}
+
+.admonition.tip {
+    background: linear-gradient(135deg, #f8fffe 0%, #f0fdfc 100%);
+    border-left-color: #14b8a6;
+}
+
+.admonition.tip > .admonition-title::before {
+    content: "🔥";
+    margin-right: 8px;
+}
+
+[data-theme="dark"] .admonition.tip {
+    background: linear-gradient(135deg, #134e4a33 0%, #0d343433 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.grid-container .admonition {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
