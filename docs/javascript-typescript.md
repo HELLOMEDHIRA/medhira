@@ -4,6 +4,10 @@ MEDHIRA provides essential JavaScript and TypeScript libraries for various devel
 
 ## Packages
 
+### n8n
+
+- **n8n-nodes-medhira** - Convert Markdown to PDF inside n8n using Puppeteer
+
 ### Expo
 
 - **medhira-expo-persist-secure-store** - Secure storage for Expo apps
@@ -35,6 +39,22 @@ yarn add <package-name>
 pnpm add <package-name>
 ```
 
+### n8n Community Node Installation
+
+```bash
+# Docker
+docker exec -it n8n sh
+mkdir -p ~/.n8n/nodes && cd ~/.n8n/nodes
+npm install n8n-nodes-medhira
+docker restart n8n
+
+# npx n8n / Global
+mkdir -p ~/.n8n/nodes && cd ~/.n8n/nodes
+npm install n8n-nodes-medhira
+npx n8n
+```
+
 ## More Information
 
-Each package has its own documentation on GitHub and npm.
+- [GitHub](https://github.com/HELLOMEDHIRA)
+- [NPM](https://www.npmjs.com/org/medhira)

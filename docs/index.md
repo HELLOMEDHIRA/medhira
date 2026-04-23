@@ -44,6 +44,7 @@ Discover the most popular packages from our community:
 
 | Package | Description | NPM |
 |---------|-------------|-----|
+| n8n-nodes-medhira | Markdown to PDF converter for n8n | [View](https://www.npmjs.com/package/n8n-nodes-medhira) |
 | medhira-expo-persist-secure-store | Expo secure storage | [View](https://www.npmjs.com/package/medhira-expo-persist-secure-store) |
 | medhira-rn-expo-json-ui-engine | Expo JSON UI engine | [View](https://www.npmjs.com/package/medhira-rn-expo-json-ui-engine) |
 | medhira-react-typescript-hooks | React TypeScript hooks | [View](https://www.npmjs.com/package/medhira-react-typescript-hooks) |
